@@ -30,7 +30,7 @@ function exibirSessao() {
                     <p class="text-center text-uppercase text-black">${filmeAtual.titulo} </p>
                 </div>
             </div>
-            `;
+        `;
     });
 
     for (let i = 0; i < filmesBolivianos.length; i++) {
