@@ -2,29 +2,21 @@ let prefixPathSessao1 = "./img/filmes/sessao_1/";
 let filmes = [
     {
         id : "sessao_1_1",
-        titulo : "Nativas Narrativas: Mirando Mundos Possíveis",
-        subtitulo :  " Ep. 1: Teko Marangatu, Ep. 2: Ary Vaí , Ep. 3: Yvyra’i Jeguá",
-        duracao : "Ep.1 - 5m57s , Ep.2 - 5m43s, Ep.3 - 6m51s ",
-        ano: "2020",
-        sinopse: "A websérie Nativas Narrativas: Mirando Mundos Possíveis é uma iniciativa autônoma da ASCURI (Associação Cultural de Realizadores Indígenas/MS) que visa mostrar as perspectivas dos povos indígenas diante da pandemia global do novo coronavírus em 2020.",
-        direcao: "Associação Cultural de Realizadores Indígenas (ASCURI)",
-        roteiro: "Ivan Molina e Eliel Benites",
-        imagens: "Ademilson Kiki Concianza; Fernanda da Silva; Gilearde Barbosa; Junior Joel lopes; Inair Lopes",
-        edicao: "Ademilson Kiki Concianza; Gilearde Barbosa; Fabio Concianza; Iulik de Farias; Junior Joel lopes; Inair Lopes; Gilmar Kiripuku Galache",
-        produção: "Associação Cultural de Realizadores Indígenas (ASCURI)",
-        imagem: "nativas_narrativas.png",
-        link: "https://www.videocamp.com/pt/campaigns/521?playlist_id=88",
+        titulo : "POPXOP ",
+        infos: "(Brasil, 2019, 103 min, cor)",
+        sinopse: "Os Popxop, Macacos-Yãmĩyxop (Po’op-Yãmĩyxop), são aliados cantores do povo Tikmũ´ũn / Maxakali, hoje residentes do Vale do Mucuri, em Minas Gerais. Periodicamente, vêm às aldeias passar um longo período, que pode se estender por alguns meses, para manejar as saudades de suas mães e pais, pajés homens e mulheres Tikmũ´ũn / Maxakali. Eles cantam as histórias, os segredos, os caminhos e os olhares da Mata Atlântica, imitando e narrando cantos de outros grupos de Yãmĩyxop, seres encantados-cantores que também acompanham e protegem os Tikmũ´ũn / Maxakali. Trazendo saberes e experiências de alegria, garantem a saúde da comunidade e celebram encontros xamânicos que atravessam o território e o tempo.",
+        dados: "DIREÇÃO: Natalino Maxakali e Ana Estrela | ROTEIRO: Ana Estrela, Manoel Damásio Maxakali, Arnalda Maxakali | FILMAGEM: Ana Estrela, Anísia Maxakali, Arnalda Maxakali, Jacinto Maxakali, Natalino Maxakali, Vanessa Maxakali | EDIÇÃO: Ana Estrela, Anísia Maxakali, Arnalda Maxakali, Miguelzinho Maxakali, Natalino Maxakali | LEGENDAGEM E TRADUÇÃO DOS CANTOS: Ana Estrela, Antônio Marcos Maxakali, Arnalda Maxakali, Israel Maxakali, Manoel Damásio Maxakali, Marilton Maxakali, Marquinhos Maxakali, Miguelzinho Maxakali, Natalino Maxakali, Pequi Maxakali | NARRAÇÃO: Adriana Maxakali, Bilza Maxakali, Edna Maxakali, Manoel Damásio Maxakali | TRILHA SONORA, PRODUÇÃO E REALIZAÇÃO: Aldeia Nova Vila (Pradinho, T. I. Maxakali)",
+        imagem: "POPXOP_STILL.jpg",
+        link: "#",
     },
     {
         id : "sessao_1_2",
-        titulo: "Comunidade Myky contra covid-19",
-        duracao: "6 min",
-        ano: "2020",
-        sinopse: "Até o momento, mesmo que o coronavírus não tenha chegado às famílias do povo Myky, no noroeste de Mato Grosso, a população tem se mobilizado para evitar a doença. Uma porteira foi construída na estrada que conecta o território às cidades, as idas ao município diminuíram, os mais velhos fazem remédio e rezam para sua proteção, algumas famílias realizam acampamentos de pesca para se distanciar ainda mais dos perigos. Um registro atual realizado por Typju Myky de um difícil contexto, sobretudo para os povos indígenas, e que se espera superar num futuro próximo.",
-        direcao: "Typju Myky e Minã Myky",
-        realizacao : "Coletivo Ijã Mytyli de Cinema Manoki e Myky e Rede CineFlecha",
-        imagem: "Comunidade_Myky_contra_covid.png",
-        link: "https://www.videocamp.com/pt/campaigns/543?playlist_id=88",
+        titulo: "CAÇANDO CAPIVARA",
+        subtitulo: "Kuxakuk Xak",
+        infos: "(Brasil, 2009, 57 min, cor)",
+        dados: "DIREÇÃO: Derli Maxakali, Marilton Maxakali, Juninha Maxakali, Janaina Maxakali, Fernando Maxakali, Joanina Maxakali, Zé Carlos Maxakali, Bernardo Maxakali, João Duro Maxakali | EDIÇÃO: Mari Corrêa | ASSISTENTE DE EDIÇÃO: Eduardo Rossi | NARRAÇÃO: Marilton Maxakali, Derli Maxakali | TRADUÇÃO: Zé Antoninho Maxakali, Damasinho Maxakali, Vitorino Maxakali, Marilton Maxakali | COORDENAÇÃO DO PROJETO: Rosângela Pereira de Tugny | OFICINA DE FORMAÇÃO: Mari Corrêa, Carolina Canguçu, Rafael Barros | PARTICIPAÇÃO: Instituto Catitu - Aldeia em cena, Vídeo nas Aldeias | COORDENAÇÃO DE PRODUÇÃO: Rafael Barros, Renata Otto | COLABORAÇÃO: Júnia Torres | REALIZAÇÃO: Associação Filmes de Quintal | Aldeia Vila Nova (Pradinho, T. I. Maxakali)",
+        imagem: "CacandoCapivaraSTILL.png",
+        link: "#",
     },
   
 ];
@@ -56,70 +48,74 @@ function exibeSessao1() {
 
         let conteudo = "";
 
-        if(filmeAtual.titulo){
-            conteudo += `<p><span>Título: </span> ${filmeAtual.titulo} </p>`;
-        }
+        filmeAtual.titulo = filmeAtual.titulo ? filmeAtual.titulo : '';
+        filmeAtual.subtitulo = filmeAtual.subtitulo ? filmeAtual.subtitulo : '';
+        filmeAtual.infos = filmeAtual.infos ? filmeAtual.infos : '';
 
-        if(filmeAtual.subtitulo){
-            conteudo += `<p>${filmeAtual.subtitulo} </p>`;
-        }
+        // if(filmeAtual.titulo){
+        //     conteudo += `<p><span>Título: </span> ${filmeAtual.titulo} </p>`;
+        // }
 
-        if(filmeAtual.duracao){
-            conteudo += `<p><span>Duração: </span> ${filmeAtual.duracao} </p>`;
-        }
+        // if(filmeAtual.subtitulo){
+        //     conteudo += `<p>${filmeAtual.subtitulo} </p>`;
+        // }
 
-        if(filmeAtual.ano){
-            conteudo += `<p><span>Ano: </span> ${filmeAtual.ano} </p>`;
-        }
+        // if(filmeAtual.duracao){
+        //     conteudo += `<p><span>Duração: </span> ${filmeAtual.duracao} </p>`;
+        // }
 
-        if(filmeAtual.sinopse){
-            conteudo += `<p><span>Sinopse: </span> ${filmeAtual.sinopse} </p>`;
-        }
+        // if(filmeAtual.ano){
+        //     conteudo += `<p><span>Ano: </span> ${filmeAtual.ano} </p>`;
+        // }
 
-        if(filmeAtual.direcao){
-            conteudo += `<p><span>Direção: </span> ${filmeAtual.direcao} </p>`;
-        }
+        // if(filmeAtual.sinopse){
+        //     conteudo += `<p><span>Sinopse: </span> ${filmeAtual.sinopse} </p>`;
+        // }
 
-        if(filmeAtual.realizacao){
-            conteudo += `<p><span>Realização: </span> ${filmeAtual.realizacao} </p>`;
-        }
+        // if(filmeAtual.direcao){
+        //     conteudo += `<p><span>Direção: </span> ${filmeAtual.direcao} </p>`;
+        // }
 
-        if(filmeAtual.lingua){
-            conteudo += ` <p><span>Língua: </span> ${filmeAtual.lingua} </p>`;
-        }
+        // if(filmeAtual.realizacao){
+        //     conteudo += `<p><span>Realização: </span> ${filmeAtual.realizacao} </p>`;
+        // }
 
-        if(filmeAtual.roteiro){
-            conteudo += ` <p><span>Roteiro: </span> ${filmeAtual.roteiro} </p>`;
-        }
+        // if(filmeAtual.lingua){
+        //     conteudo += ` <p><span>Língua: </span> ${filmeAtual.lingua} </p>`;
+        // }
 
-        if(filmeAtual.imagens){
-            conteudo += ` <p><span>Imagens: </span> ${filmeAtual.imagens} </p>`;
-        }
+        // if(filmeAtual.roteiro){
+        //     conteudo += ` <p><span>Roteiro: </span> ${filmeAtual.roteiro} </p>`;
+        // }
 
-        if(filmeAtual.edicao){
-            conteudo += ` <p><span>Edição: </span> ${filmeAtual.edicao} </p>`;
-        }
+        // if(filmeAtual.imagens){
+        //     conteudo += ` <p><span>Imagens: </span> ${filmeAtual.imagens} </p>`;
+        // }
 
-        if(filmeAtual.producao){
-            conteudo += ` <p><span>Produção: </span> ${filmeAtual.producao} </p>`;
-        }
+        // if(filmeAtual.edicao){
+        //     conteudo += ` <p><span>Edição: </span> ${filmeAtual.edicao} </p>`;
+        // }
 
-        if(filmeAtual.orientacao){
-            conteudo += ` <p><span>Orientação: </span> ${filmeAtual.orientacao} </p>`;
-        }
+        // if(filmeAtual.producao){
+        //     conteudo += ` <p><span>Produção: </span> ${filmeAtual.producao} </p>`;
+        // }
 
-        if(filmeAtual.traducao){
-            conteudo += ` <p> <span>Tradução </span>${filmeAtual.traducao} </p>`;
-        }
+        // if(filmeAtual.orientacao){
+        //     conteudo += ` <p><span>Orientação: </span> ${filmeAtual.orientacao} </p>`;
+        // }
 
-        if(filmeAtual.fotografia){
-            conteudo += ` <p> <span>Fotografia: </span>${filmeAtual.fotografia} </p>`;
-        }
+        // if(filmeAtual.traducao){
+        //     conteudo += ` <p> <span>Tradução </span>${filmeAtual.traducao} </p>`;
+        // }
+
+        // if(filmeAtual.fotografia){
+        //     conteudo += ` <p> <span>Fotografia: </span>${filmeAtual.fotografia} </p>`;
+        // }
 
 
-        if(filmeAtual.maisInfos){
-            conteudo += ` <p> ${filmeAtual.maisInfos} </p>`;
-        }
+        // if(filmeAtual.maisInfos){
+        //     conteudo += ` <p> ${filmeAtual.maisInfos} </p>`;
+        // }
 
         return `
             <div class="portfolio-modal modal fade" id="portfolioModal${filmeAtual.id}" tabindex="-1" role="dialog" aria-labelledby="portfolioModal${filmeAtual.id}Label" aria-hidden="true">
@@ -136,14 +132,13 @@ function exibeSessao1() {
                                         <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal${filmeAtual.id}Label">
                                             ${filmeAtual.titulo}
                                         </h2>
+                                        <h4 class=" text-uppercase "> ${filmeAtual.subtitulo} </h4>
+                                        <p> ${filmeAtual.infos} </p>
                                         <div class="divider-custom">
-                                            <div class="divider-custom-line"></div>
-                                            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                            <div class="divider-custom-line"></div>
                                         </div>
                                         <img class="img-fluid rounded mb-5" src="${prefixPathSessao1}${filmeAtual.imagem}" alt="${filmeAtual.titulo}" title="${filmeAtual.titulo}" />
 
-                                        ${conteudo}
+                                        <p> ${filmeAtual.dados} </p>
 
                                         <button class="btn btn-primary">
                                             <a href="${filmeAtual.link}" target="_blank">
