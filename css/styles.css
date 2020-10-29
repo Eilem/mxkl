@@ -435,6 +435,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  text-align: justify;
 }
 
 .display-1 {
@@ -10408,4 +10409,8 @@ form .row:first-child .floating-label-form-group {
 }
 .movie-margin-left{
   margin-left: 2rem;
+}
+
+.margin-aliens-tech-top{
+  margin-bottom: 5rem;
 }
