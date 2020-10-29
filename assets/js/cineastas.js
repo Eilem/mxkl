@@ -34,7 +34,7 @@ let cineastas = [
     {
         //falta img
         nome : "Ismail Maxakali",
-        imagem : "ismail.png",
+        imagem : "Ismail.png",
         biografia : "Liderança, professor e cineasta da Terra Indígena Maxakali do Pradinho. Atualmente integra o Coletivo de Cinema Maxakali do Pradinho.",
     },    
     {
