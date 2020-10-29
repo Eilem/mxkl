@@ -9730,7 +9730,8 @@ button.bg-dark:focus {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
-.text-justify {
+.text-justify 
+{
   text-align: justify !important;
 }
 
@@ -10381,9 +10382,15 @@ form .row:first-child .floating-label-form-group {
 }
 
 .margin-description-sections{
-  margin-top: - 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.margin-title{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .card-margin{
-  margin: 0.8rem !important; 
+  margin: 1.5rem !important; 
 }

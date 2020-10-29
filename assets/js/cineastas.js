@@ -98,7 +98,7 @@ function exibir() {
                 <img class="img-fluid" src="${prefixPath}${realizador.imagem}" alt="${realizador.nome}" title=" ${realizador.nome}" />
                 <p></p>
                 <h3>${realizador.nome}</h3>
-                <p>${realizador.biografia}</p>
+                <p class="text-justify">${realizador.biografia}</p>
             </div>                    
         </div>
         `;
