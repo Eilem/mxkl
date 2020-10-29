@@ -42,16 +42,6 @@
 }
 
 @font-face {
-  font-family: 'dystopian-black';
-  src: url('../fontes/dystopian-black/dystopian-black.woff2') format('woff2'),
-       url('../fontes/dystopian-black/dystopian-black.woff') format('woff');
-  /* src: url('../fontes/dystopian-black.woff2') format('woff2'),
-       url('../fontes/dystopian-black.woff') format('woff'); */
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'dystopian-regular';
   src: url('../fontes/dystopian-regular/dystopian-regular.woff2') format('woff2'),
        url('../fontes/dystopian-regular/dystopian-regular.woff') format('woff');
@@ -60,9 +50,17 @@
 }
 
 @font-face {
+  font-family: 'dystopian-black';
+  src: url('../fontes/dystopian-black/dystopian-black.woff2') format('woff2'),
+       url('../fontes/dystopian-black/dystopian-black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'bommer-regular';
   src: url('../fontes/bommer-regular/BommerSans-Regular.woff') format('woff'),
-       url('../fontes/bommer-regular/BommerSans-Regular.woff') format('woff');
+       url('../fontes/bommer-regular/BommerSans-Regular.otf') format('otf');
   font-weight: normal;
   font-style: normal;
 }
@@ -411,19 +409,19 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
-}
-
-h2, .h2 {
   font-size: 2rem;
 }
 
+h2, .h2 {
+  font-size: 1.8rem;
+}
+
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 1.6rem;
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 h5, .h5 {
@@ -6147,7 +6145,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #e3c8b1 !important;
+  background-color: #871d21 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9871,6 +9869,10 @@ a.text-primary:hover, a.text-primary:focus {
   color: #000000 !important;
 }
 
+.text-note {
+  font-size: 0.7rem;
+}
+
 a.text-secondary:hover, a.text-secondary:focus {
   color: #11181f !important;
 }
@@ -10202,7 +10204,7 @@ h3 {
 }
 .masthead {
   padding-top: calc(1rem + 74px);
-  /* padding-bottom: 1rem; */
+  padding-bottom: 1rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10213,6 +10215,10 @@ h3 {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+}
+
+masthead-background{
+  background-color: #871d21;
 }
 
 @media (min-width: 992px) {
@@ -10342,11 +10348,12 @@ form .row:first-child .floating-label-form-group {
   padding-bottom: 2rem;
 }
 
-.realizadores-texto{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.body-description-text{
+  color: #871d21;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: 1.5rem;
-  text-align: center;
+  text-align: justify;
 }
 
 .footer-area{
@@ -10359,7 +10366,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .ficha-tecnica{
-  margin: 2rem 2rem;
+  margin: 1rem 1rem;
 }
 
 .email-rodape{
@@ -10368,26 +10375,15 @@ form .row:first-child .floating-label-form-group {
   margin-top: 2rem;
 }
 
-/* ajustes logos rodape  */
-@media (min-width: 768px) {
-  .altura-logo {
-    height: 100px;
-  }
-  .logo-rede-cine-flecha{
-    margin-top: 50px;
-  }  
-  .logos-horizontais- {
-    margin-left: 1rem;
-  }  
-  .logos-horizontais-centro{
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }  
-  .logos-horizontais-esquerda{
-    margin-right: 1rem;
-  }
+.lives {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-.proac{
-  width: 300px;
+.margin-description-sections{
+  margin-top: - 2rem;
+}
+
+.card-margin{
+  margin: 0.8rem !important; 
 }

@@ -10,11 +10,11 @@ function exibirBanner() {
         <!-- The slideshow -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="img-fluid" src="img/banners/banner1.jpg" alt="Mostra Maxakali" width="auto" >
+                <img class="img-fluid" src="img/banners/banner1.png" alt="Mostra Maxakali" width="auto" >
             </div>
             <div class="carousel-item">
                 <a href="#" target="#">
-                    <img class="img-fluid" src="img/banners/banner2.jpg" alt="Mostra Maxakali" width="auto">
+                    <img class="img-fluid" src="img/banners/banner2.png" alt="Mostra Maxakali" width="auto">
                 </a>
             </div>
         </div>
