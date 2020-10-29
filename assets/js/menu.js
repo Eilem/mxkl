@@ -47,7 +47,7 @@ function exibirMenu() {
     let menu = `
         <a class="navbar-brand js-scroll-trigger" href="index.html">
             <!-- @todo   colocar em assets -->
-            <img src="assets/img/logo-menu-100.png" alt="Maxakali">
+            <img src="assets/img/logomenu_100px.jpg" alt="Maxakali">
         </a>
         <!-- hamburguer responsivo -->
         <button
