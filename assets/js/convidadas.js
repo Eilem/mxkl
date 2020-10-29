@@ -46,7 +46,7 @@ function exibirConvidados() {
                 <div class="portfolio-item mx-auto">
                     <h5 class="text-center text-uppercase text-black">${convidado.nome}</h5>
                     <h6 class="text-center">(${convidado.local})</h6>
-                    <p class="text-center">${convidado.bio}</p>
+                    <p class="text-justify">${convidado.bio}</p>
                 </div>
             </div>
         `;

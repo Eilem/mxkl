@@ -36,16 +36,6 @@ let lives = [
 function exibirLives() {
     
     let lista = lives.map(function(live){
-    
-
-        // <div class="col-md-6 col-lg-4 mb-5">
-        //     <div class="portfolio-item mx-auto">
-        //         <p> </p>
-        //         <a href="${live.link}" target="_blank">
-        //             <img class="img-fluid" src="${prefixPathLives}${live.imagem}" alt="${live.titulo}" title=" ${live.titulo}" />
-        //         </a>
-        //     </div>                    
-        // </div>
 
         return `       
             <div class="card card-margin">
