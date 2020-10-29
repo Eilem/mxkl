@@ -9870,7 +9870,7 @@ a.text-primary:hover, a.text-primary:focus {
   color: #000000 !important;
 }
 
-.text-note {
+.text-reference {
   font-size: 0.7rem;
 }
 
@@ -10401,4 +10401,11 @@ form .row:first-child .floating-label-form-group {
 
 .card-margin{
   margin: 1.5rem !important; 
+}
+
+.movie-margin-right{
+  margin-right: 2rem;
+}
+.movie-margin-left{
+  margin-left: 2rem;
 }
