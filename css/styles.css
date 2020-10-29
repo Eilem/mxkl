@@ -10391,6 +10391,14 @@ form .row:first-child .floating-label-form-group {
   margin-bottom: 2rem;
 }
 
+.margin-title-top{
+  margin-top: 2rem;
+}
+
+.margin-title-bottom{
+  margin-bottom: 2rem;
+}
+
 .card-margin{
   margin: 1.5rem !important; 
 }
