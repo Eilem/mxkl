@@ -11,14 +11,19 @@ let formacao = [
         titulo : "Mulheres dançando durante o 1º Encontro de Pajés de Aldeia Nova. ",
     },
     {
-        id: 'img_',
+        id: 'img_3',
         imagem : "foto3.jpg",
         titulo : "Juninha Maxakali filma chegada das Yãmĩyhex na Aldeia Maravilha.",
     },
     {
-        id: 'img_',
+        id: 'img_4',
         imagem : "foto4.jpeg",
         titulo : "Juninha Maxakali filma chegada das Yãmĩyhex na Aldeia Maravilha.",
+    },
+    {
+        id: 'img_5',
+        imagem : "foto5.jpeg",
+        titulo : "Ūn ka’ok.",
     },
 ];
 
