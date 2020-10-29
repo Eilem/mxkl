@@ -6,7 +6,7 @@ function exibirRodape() {
                     <img class="img-fluid" src="assets/img/rodape.png" alt="" title="" />  
             </div>
             <div class="container">
-                <small>Aliens Tech Solutions</small>
+                <sup class="text-red margin-title margin-title-top">Aliens Tech Solutions</sup>
             </div>
         </div> 
     `;
