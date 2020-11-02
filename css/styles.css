@@ -10361,7 +10361,6 @@ form .row:first-child .floating-label-form-group {
 .footer-area{
   margin-top: 2rem;
   margin-bottom: 2rem;
-
 }
 .logo{
   margin: 2%;
@@ -10410,33 +10409,24 @@ form .row:first-child .floating-label-form-group {
 .movie-margin-left{
   margin-left: 1rem;
 }
-
 .margin-aliens-tech-top{
-  margin-bottom: 5rem;
+  margin-top: 2rem;
 }
 
-
 @media (min-width: 992px) {
-  
   .info-sessao-margin-left{
     margin-left: 15%;
-  }
-  
+  }  
   .info-sessao-margin-right{
     margin-right: 15%;
   }
-  
 }
 
-@media (max-width: 575px) {
-  
+@media (max-width: 575px) {  
   .info-sessao-margin-left-cel{
     margin-left: 20%;
-  }
-  
+  }  
   .info-sessao-margin-right-cel{
     margin-right: 20%;
   }
-  
 }
-

@@ -24,7 +24,6 @@ let filmes = [
 function exibeSessao1() {
 
     let lista = filmes.map( function( filmeAtual){
-
         return `
             <div class="col-md-6 col-lg-6 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal${filmeAtual.id}">
@@ -42,11 +41,7 @@ function exibeSessao1() {
         document.getElementById('sessao_1').innerHTML += lista[i];
     }
 
-    //iterar modal para a lista
-
     let modals = filmes.map( function(filmeAtual) {
-
-        let conteudo = "";
 
         filmeAtual.titulo = filmeAtual.titulo ? filmeAtual.titulo : '';
         filmeAtual.subtitulo = filmeAtual.subtitulo ? filmeAtual.subtitulo : '';
@@ -73,7 +68,8 @@ function exibeSessao1() {
                                         </div>
                                         <img class="img-fluid rounded mb-5" src="${prefixPathSessao1}${filmeAtual.imagem}" alt="${filmeAtual.titulo}" title="${filmeAtual.titulo}" />
 
-                                        <p> ${filmeAtual.dados} </p>
+                                        <p class="text-justify"> ${filmeAtual.sinopse} </p>
+                                        <p class="text-reference"> ${filmeAtual.dados} </p>
 
                                         <button class="btn btn-primary">
                                             <a href="${filmeAtual.link}" target="_blank">
