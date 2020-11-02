@@ -14,11 +14,11 @@ let filmes = [
         titulo: "CAÇANDO CAPIVARA",
         subtitulo: "Kuxakuk Xak",
         infos: "(Brasil, 2009, 57 min, cor)",
+        sinopse: "Caçadores Tikmũ´ũn / Maxakali saem com seus cães e espíritos aliados em busca da capivara. Cantos, olhares e eventos. Intensidades que se agitam sob um plano de aparente silêncio.",
         dados: "DIREÇÃO: Derli Maxakali, Marilton Maxakali, Juninha Maxakali, Janaina Maxakali, Fernando Maxakali, Joanina Maxakali, Zé Carlos Maxakali, Bernardo Maxakali, João Duro Maxakali | EDIÇÃO: Mari Corrêa | ASSISTENTE DE EDIÇÃO: Eduardo Rossi | NARRAÇÃO: Marilton Maxakali, Derli Maxakali | TRADUÇÃO: Zé Antoninho Maxakali, Damasinho Maxakali, Vitorino Maxakali, Marilton Maxakali | COORDENAÇÃO DO PROJETO: Rosângela Pereira de Tugny | OFICINA DE FORMAÇÃO: Mari Corrêa, Carolina Canguçu, Rafael Barros | PARTICIPAÇÃO: Instituto Catitu - Aldeia em cena, Vídeo nas Aldeias | COORDENAÇÃO DE PRODUÇÃO: Rafael Barros, Renata Otto | COLABORAÇÃO: Júnia Torres | REALIZAÇÃO: Associação Filmes de Quintal | Aldeia Vila Nova (Pradinho, T. I. Maxakali)",
         imagem: "CacandoCapivaraSTILL.png",
         link: "#",
     },
-  
 ];
 
 function exibeSessao1() {
@@ -26,7 +26,7 @@ function exibeSessao1() {
     let lista = filmes.map( function( filmeAtual){
 
         return `
-            <div class="col-md-6 col-lg-4 mb-5">
+            <div class="col-md-6 col-lg-6 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal${filmeAtual.id}">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
@@ -51,71 +51,6 @@ function exibeSessao1() {
         filmeAtual.titulo = filmeAtual.titulo ? filmeAtual.titulo : '';
         filmeAtual.subtitulo = filmeAtual.subtitulo ? filmeAtual.subtitulo : '';
         filmeAtual.infos = filmeAtual.infos ? filmeAtual.infos : '';
-
-        // if(filmeAtual.titulo){
-        //     conteudo += `<p><span>Título: </span> ${filmeAtual.titulo} </p>`;
-        // }
-
-        // if(filmeAtual.subtitulo){
-        //     conteudo += `<p>${filmeAtual.subtitulo} </p>`;
-        // }
-
-        // if(filmeAtual.duracao){
-        //     conteudo += `<p><span>Duração: </span> ${filmeAtual.duracao} </p>`;
-        // }
-
-        // if(filmeAtual.ano){
-        //     conteudo += `<p><span>Ano: </span> ${filmeAtual.ano} </p>`;
-        // }
-
-        // if(filmeAtual.sinopse){
-        //     conteudo += `<p><span>Sinopse: </span> ${filmeAtual.sinopse} </p>`;
-        // }
-
-        // if(filmeAtual.direcao){
-        //     conteudo += `<p><span>Direção: </span> ${filmeAtual.direcao} </p>`;
-        // }
-
-        // if(filmeAtual.realizacao){
-        //     conteudo += `<p><span>Realização: </span> ${filmeAtual.realizacao} </p>`;
-        // }
-
-        // if(filmeAtual.lingua){
-        //     conteudo += ` <p><span>Língua: </span> ${filmeAtual.lingua} </p>`;
-        // }
-
-        // if(filmeAtual.roteiro){
-        //     conteudo += ` <p><span>Roteiro: </span> ${filmeAtual.roteiro} </p>`;
-        // }
-
-        // if(filmeAtual.imagens){
-        //     conteudo += ` <p><span>Imagens: </span> ${filmeAtual.imagens} </p>`;
-        // }
-
-        // if(filmeAtual.edicao){
-        //     conteudo += ` <p><span>Edição: </span> ${filmeAtual.edicao} </p>`;
-        // }
-
-        // if(filmeAtual.producao){
-        //     conteudo += ` <p><span>Produção: </span> ${filmeAtual.producao} </p>`;
-        // }
-
-        // if(filmeAtual.orientacao){
-        //     conteudo += ` <p><span>Orientação: </span> ${filmeAtual.orientacao} </p>`;
-        // }
-
-        // if(filmeAtual.traducao){
-        //     conteudo += ` <p> <span>Tradução </span>${filmeAtual.traducao} </p>`;
-        // }
-
-        // if(filmeAtual.fotografia){
-        //     conteudo += ` <p> <span>Fotografia: </span>${filmeAtual.fotografia} </p>`;
-        // }
-
-
-        // if(filmeAtual.maisInfos){
-        //     conteudo += ` <p> ${filmeAtual.maisInfos} </p>`;
-        // }
 
         return `
             <div class="portfolio-modal modal fade" id="portfolioModal${filmeAtual.id}" tabindex="-1" role="dialog" aria-labelledby="portfolioModal${filmeAtual.id}Label" aria-hidden="true">

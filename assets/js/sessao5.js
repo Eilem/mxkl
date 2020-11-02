@@ -1,30 +1,27 @@
-let prefixPathSessao1 = "./img/filmes/sessao_1/";
+let prefixPathSessao1 = "./img/filmes/sessao_5/";
 let filmes = [
     {
-        id : "sessao_1_1",
-        titulo : "POPXOP ",
-        infos: "(Brasil, 2019, 103 min, cor)",
-        sinopse: "Os Popxop, Macacos-Yãmĩyxop (Po’op-Yãmĩyxop), são aliados cantores do povo Tikmũ´ũn / Maxakali, hoje residentes do Vale do Mucuri, em Minas Gerais. Periodicamente, vêm às aldeias passar um longo período, que pode se estender por alguns meses, para manejar as saudades de suas mães e pais, pajés homens e mulheres Tikmũ´ũn / Maxakali. Eles cantam as histórias, os segredos, os caminhos e os olhares da Mata Atlântica, imitando e narrando cantos de outros grupos de Yãmĩyxop, seres encantados-cantores que também acompanham e protegem os Tikmũ´ũn / Maxakali. Trazendo saberes e experiências de alegria, garantem a saúde da comunidade e celebram encontros xamânicos que atravessam o território e o tempo.",
-        dados: "DIREÇÃO: Natalino Maxakali e Ana Estrela | ROTEIRO: Ana Estrela, Manoel Damásio Maxakali, Arnalda Maxakali | FILMAGEM: Ana Estrela, Anísia Maxakali, Arnalda Maxakali, Jacinto Maxakali, Natalino Maxakali, Vanessa Maxakali | EDIÇÃO: Ana Estrela, Anísia Maxakali, Arnalda Maxakali, Miguelzinho Maxakali, Natalino Maxakali | LEGENDAGEM E TRADUÇÃO DOS CANTOS: Ana Estrela, Antônio Marcos Maxakali, Arnalda Maxakali, Israel Maxakali, Manoel Damásio Maxakali, Marilton Maxakali, Marquinhos Maxakali, Miguelzinho Maxakali, Natalino Maxakali, Pequi Maxakali | NARRAÇÃO: Adriana Maxakali, Bilza Maxakali, Edna Maxakali, Manoel Damásio Maxakali | TRILHA SONORA, PRODUÇÃO E REALIZAÇÃO: Aldeia Nova Vila (Pradinho, T. I. Maxakali)",
-        imagem: "POPXOP_STILL.jpg",
+        id : "sessao_5_1",
+        titulo: "MÃTÃNÃG, A ENCANTADA",
+        infos: "(Brasil, 2019, 14 min, cor)",
+        sinopse: "Mãtãnãg, a Encantada acompanha a trajetória da índia Mãtãnãg, que segue o espírito de seu marido, morto por uma picada de cobra, até a aldeia dos mortos. Juntos eles superam os obstáculos que separam o mundo terreno do mundo espiritual.",
+        dados: 'DIREÇÃO: Shawara Maxakali, Charles Bicalho | PESQUISA E ROTEIRO: Pajé Totó Maxakali, Charles Bicalho | CONSULTORIA CULTURAL: Isael Maxakali, Sueli Maxakali | DIREÇÃO DE ANIMAÇÃO: Jackson Abacatu | ILUSTRAÇÃO: Alexandre Maxakali, Ariston Maxakali, Cassiano Maxakali, Eliana Maxakali, Erismar Maxakali, Evaldo Maxakali, Gerente Maxakali, Mamei Maxakali, Marcinho Maxakali, Marco Maxakali, Paulinho Maxakali, Shawara Maxakali | MONTAGEM: Charles Bicalho, Jackson Abacatu, Marcos Henrique Coelho | DESIGN DE PRODUÇÃO: Charles Bicalho, Comunidade Maxakali de Aldeia Verde, Jackson Abacatu | CANTO: Alexandre Maxakali, Ariston Maxakali, Cassiano Maxakali, Gerente Maxakali, Mamei Maxakali, Isael Maxakali, Shawara Maxakali | VOZES DE DIÁLOGO: Alexandre Maxakali (pajé), Ariston Maxakali (esposo de Mãtãnãg), Eliane Maxakali (amiga de Mãtãnãg), Shawara Maxakali (Mãtãnãg) | TRADUÇÃO DE MAXAKALI PARA PORTUGUÊS: Charles Bicalho, Isael Maxakali, Sueli Maxakali | SOM DIRETO E DESIGN SONORO: Guilherme Bahia | PRODUÇÃO: Charles Bicalho, Cláudia Alves, Marcos Henrique Coelho | PRODUÇÃO DE ANIMAÇÃO: Etama Produções | FINALIZAÇÃO DE IMAGEM: Jackson Abacatu | FINALIZAÇÃO DE ÁUDIO: Guilherme Bahia | ARTE GRÁFICA: Charles Bicalho, Jackson Abacatu | REALIZAÇÃO: Pajé Filmes | Belo Horizonte / Aldeia Verde ( Ladainha - MG)',
         link: "#",
     },
     {
-        id : "sessao_1_2",
-        titulo: "CAÇANDO CAPIVARA",
-        subtitulo: "Kuxakuk Xak",
-        infos: "(Brasil, 2009, 57 min, cor)",
-        sinopse: "Caçadores Tikmũ´ũn / Maxakali saem com seus cães e espíritos aliados em busca da capivara. Cantos, olhares e eventos. Intensidades que se agitam sob um plano de aparente silêncio.",
-        dados: "DIREÇÃO: Derli Maxakali, Marilton Maxakali, Juninha Maxakali, Janaina Maxakali, Fernando Maxakali, Joanina Maxakali, Zé Carlos Maxakali, Bernardo Maxakali, João Duro Maxakali | EDIÇÃO: Mari Corrêa | ASSISTENTE DE EDIÇÃO: Eduardo Rossi | NARRAÇÃO: Marilton Maxakali, Derli Maxakali | TRADUÇÃO: Zé Antoninho Maxakali, Damasinho Maxakali, Vitorino Maxakali, Marilton Maxakali | COORDENAÇÃO DO PROJETO: Rosângela Pereira de Tugny | OFICINA DE FORMAÇÃO: Mari Corrêa, Carolina Canguçu, Rafael Barros | PARTICIPAÇÃO: Instituto Catitu - Aldeia em cena, Vídeo nas Aldeias | COORDENAÇÃO DE PRODUÇÃO: Rafael Barros, Renata Otto | COLABORAÇÃO: Júnia Torres | REALIZAÇÃO: Associação Filmes de Quintal | Aldeia Vila Nova (Pradinho, T. I. Maxakali)",
-        imagem: "CacandoCapivaraSTILL.png",
+        id : "sessao_5_2",
+        titulo: "YÃMĨYHEX: AS MULHERES-ESPÍRITO",
+        infos: "(Brasil, 2019, 76 min, cor)",
+        sinopse: "Após passarem alguns meses na Aldeia Verde, as yãmĩyhex (mulheres-espírito) se preparam para partir. Os cineastas Sueli e Isael Maxakali registram os preparativos e a grande festa para sua despedida. Durante os dias de festa, uma multidão de espíritos atravessa a aldeia. As yãmĩyhex vão embora, mas sempre voltam com saudades dos seus pais e das suas mães.",
+        dados: 'DIREÇÃO: Sueli Maxakali e Isael Maxakali |IMAGENS: Sueli Maxakali, Isael Maxakali, Alexandre Maxakali, Cassiano Maxakali, Patrícia Ferreira Para Yxapy, Roberto Romero, Carolina Canguçu | ASSISTÊNCIA DE DIREÇÃO: Carolina Canguçu e Roberto Romero| MONTAGEM: Luisa Lanna EM COLABORAÇÃO COM: Carolina Canguçu, Roberto Romero | FINALIZAÇÃO DE SOM: Pedro Portella | Aldeia Verde ( Ladainha - MG)',
         link: "#",
     },
   
 ];
 
-function exibirSessao() {
+function exibirSessao5() {
 
-    let lista = filmesSessao3.map(function(filmeAtual){
+    let lista = filmesSessao5.map(function(filmeAtual){
         return `
             <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal${filmeAtual.id}">
@@ -38,12 +35,12 @@ function exibirSessao() {
         `;
     });
 
-    for (let i = 0; i < filmesSessao3.length; i++) {
-        document.getElementById('sessao_3').innerHTML += lista[i];
+    for (let i = 0; i < filmesSessao5.length; i++) {
+        document.getElementById('sessao_5').innerHTML += lista[i];
     }
 
 
-    let modals = filmesSessao3.map( function(filmeAtual) {
+    let modals = filmesSessao5.map( function(filmeAtual) {
 
         let conteudo = "";
 
@@ -157,9 +154,9 @@ function exibirSessao() {
 
     });
 
-    for (let i = 0; i < filmesSessao3.length; i++) {
+    for (let i = 0; i < filmesSessao5.length; i++) {
         document.getElementById('modal_sessao_3').innerHTML += modals[i];
     }
 }
 
-exibirSessao();
+exibirSessao5();
