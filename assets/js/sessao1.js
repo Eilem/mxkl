@@ -7,7 +7,7 @@ let filmes = [
         sinopse: "Os Popxop, Macacos-Yãmĩyxop (Po’op-Yãmĩyxop), são aliados cantores do povo Tikmũ´ũn / Maxakali, hoje residentes do Vale do Mucuri, em Minas Gerais. Periodicamente, vêm às aldeias passar um longo período, que pode se estender por alguns meses, para manejar as saudades de suas mães e pais, pajés homens e mulheres Tikmũ´ũn / Maxakali. Eles cantam as histórias, os segredos, os caminhos e os olhares da Mata Atlântica, imitando e narrando cantos de outros grupos de Yãmĩyxop, seres encantados-cantores que também acompanham e protegem os Tikmũ´ũn / Maxakali. Trazendo saberes e experiências de alegria, garantem a saúde da comunidade e celebram encontros xamânicos que atravessam o território e o tempo.",
         dados: "DIREÇÃO: Natalino Maxakali e Ana Estrela | ROTEIRO: Ana Estrela, Manoel Damásio Maxakali, Arnalda Maxakali | FILMAGEM: Ana Estrela, Anísia Maxakali, Arnalda Maxakali, Jacinto Maxakali, Natalino Maxakali, Vanessa Maxakali | EDIÇÃO: Ana Estrela, Anísia Maxakali, Arnalda Maxakali, Miguelzinho Maxakali, Natalino Maxakali | LEGENDAGEM E TRADUÇÃO DOS CANTOS: Ana Estrela, Antônio Marcos Maxakali, Arnalda Maxakali, Israel Maxakali, Manoel Damásio Maxakali, Marilton Maxakali, Marquinhos Maxakali, Miguelzinho Maxakali, Natalino Maxakali, Pequi Maxakali | NARRAÇÃO: Adriana Maxakali, Bilza Maxakali, Edna Maxakali, Manoel Damásio Maxakali | TRILHA SONORA, PRODUÇÃO E REALIZAÇÃO: Aldeia Nova Vila (Pradinho, T. I. Maxakali)",
         imagem: "POPXOP_STILL.jpg",
-        link: "#",
+        link: "https://www.looke.com.br/movies/dist/spcine/maxakali",
     },
     {
         id : "sessao_1_2",
@@ -17,7 +17,7 @@ let filmes = [
         sinopse: "Caçadores Tikmũ´ũn / Maxakali saem com seus cães e espíritos aliados em busca da capivara. Cantos, olhares e eventos. Intensidades que se agitam sob um plano de aparente silêncio.",
         dados: "DIREÇÃO: Derli Maxakali, Marilton Maxakali, Juninha Maxakali, Janaina Maxakali, Fernando Maxakali, Joanina Maxakali, Zé Carlos Maxakali, Bernardo Maxakali, João Duro Maxakali | EDIÇÃO: Mari Corrêa | ASSISTENTE DE EDIÇÃO: Eduardo Rossi | NARRAÇÃO: Marilton Maxakali, Derli Maxakali | TRADUÇÃO: Zé Antoninho Maxakali, Damasinho Maxakali, Vitorino Maxakali, Marilton Maxakali | COORDENAÇÃO DO PROJETO: Rosângela Pereira de Tugny | OFICINA DE FORMAÇÃO: Mari Corrêa, Carolina Canguçu, Rafael Barros | PARTICIPAÇÃO: Instituto Catitu - Aldeia em cena, Vídeo nas Aldeias | COORDENAÇÃO DE PRODUÇÃO: Rafael Barros, Renata Otto | COLABORAÇÃO: Júnia Torres | REALIZAÇÃO: Associação Filmes de Quintal | Aldeia Vila Nova (Pradinho, T. I. Maxakali)",
         imagem: "CacandoCapivaraSTILL.png",
-        link: "#",
+        link: "https://www.looke.com.br/movies/dist/spcine/maxakali",
     },
 ];
 
@@ -54,33 +54,23 @@ function exibeSessao1() {
                         <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true"><i class="fas fa-times"></i></span>
                         </button>
-
+                        
                         <div class="modal-body text-center">
                             <div class="container">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-8">
-                                        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal${filmeAtual.id}Label">
-                                            ${filmeAtual.titulo}
-                                        </h2>
-                                        <h4 class=" text-uppercase "> ${filmeAtual.subtitulo} </h4>
-                                        <p> ${filmeAtual.infos} </p>
-                                        <div class="divider-custom">
-                                        </div>
-                                        <img class="img-fluid rounded mb-5" src="${prefixPathSessao1}${filmeAtual.imagem}" alt="${filmeAtual.titulo}" title="${filmeAtual.titulo}" />
-
-                                        <p class="text-justify"> ${filmeAtual.sinopse} </p>
-                                        <p class="text-reference"> ${filmeAtual.dados} </p>
-
-                                        <button class="btn btn-primary">
+                                        <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal${filmeAtual.id}Label">${filmeAtual.titulo}</h2>
+                                        <h4 class=" text-uppercase">${filmeAtual.subtitulo}</h4>
+                                        <p>${filmeAtual.infos}</p>
+                                      
+                                        <img class="img-fluid rounded mb-3" src="${prefixPathSessao1}${filmeAtual.imagem}" alt="${filmeAtual.titulo}" title="${filmeAtual.titulo}" />
+                                        <button class="btn btn-primary  mb-3">
                                             <a href="${filmeAtual.link}" target="_blank">
-                                                <i class="fas fa-video fa-fw"></i>
-                                                Assistir
+                                                <i class="fas fa-video fa-fw"></i>Assistir
                                             </a>
                                         </button>
-                                        <button class="btn btn-primary" data-dismiss="modal">
-                                            <i class="fas fa-times fa-fw"></i>
-                                            Fechar
-                                        </button>
+                                        <p class="text-justify">${filmeAtual.sinopse} </p> 
+                                        <p class="text-reference text-justify"> ${filmeAtual.dados} </p>
                                     </div>
                                 </div>
                             </div>
@@ -89,7 +79,6 @@ function exibeSessao1() {
                 </div>
             </div>
         `;
-
     });
 
     for (let i = 0; i < filmes.length; i++) {
