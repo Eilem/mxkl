@@ -2,11 +2,6 @@ function exibirBanner() {
 
     document.getElementById('banner-carrossel').innerHTML = `
     <div id="demo" class="carousel slide" data-ride="carousel"  data-interval="9000">
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-        </ul>
         <!-- The slideshow -->
         <div class="carousel-inner">
             <div class="carousel-item active">
