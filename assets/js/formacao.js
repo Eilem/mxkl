@@ -2,31 +2,65 @@ let prefixPathFormacao = "./img/formacao/";
 let formacao = [
     {
         id: 'img_1',
-        imagem : "foto1.jpg",
+        imagem : "1-Sueli_Maxakali_filma_o_1_Encontro_de_Pajes_de_Aldeia_Nova.JPG",
         titulo : "Sueli Maxakali filma o 1º Encontro de Pajés de Aldeia Nova. ",
     },
     {
         id: 'img_2',
-        imagem : "foto2.jpeg",
+        imagem : "2-Mulheres_dançando_durante_o_1_Encontro_de_Pajes_de_Aldeia_Nova.jpeg",
         titulo : "Mulheres dançando durante o 1º Encontro de Pajés de Aldeia Nova. ",
     },
     {
         id: 'img_3',
-        imagem : "foto3.jpg",
+        imagem : "3-Juninha_Maxakali_filma_chegada_das_Yamiyhex_na_Aldeia_Maravilha.jpg",
         titulo : "Juninha Maxakali filma chegada das Yãmĩyhex na Aldeia Maravilha.",
     },
     {
         id: 'img_4',
-        imagem : "foto4.jpeg",
+        imagem : "4-Juninha_Maxakali_filma_chegada_das_Yamiyhex_na_Aldeia_Maravilha_.jpeg",
         titulo : "Juninha Maxakali filma chegada das Yãmĩyhex na Aldeia Maravilha.",
     },
     {
         id: 'img_5',
-        imagem : "foto5.jpeg",
+        imagem : "5-Un_kau_ok.jpg",
         titulo : "Ūn ka’ok.",
     },
+    {
+        id: 'img_6',
+        imagem : "6-Arnalda_Maxakali_ensina_mocas_a_filmar_os_Yamiyxop_na_Aldeia_Nova_Vila_no_Pradinho.jpeg",
+        titulo : "Arnalda Maxakali ensina moças a filmar os Yãmĩyxop na Aldeia Nova Vila, no Pradinho.",
+    },
+    {
+        id: 'img_7',
+        imagem : "7-Janaina_Maxakali_filma_as_Yamiyhex_no_Pradinho.jpg",
+        titulo : "Janaína Maxakali filma as Yãmĩyhex, no Pradinho.",
+    },
+    {
+        id: 'img_8',
+        imagem : "8-Janaina_Maxakali_filma_paje_Derli_Maxakali_na_Aldeia_Nova_Boa_no_Pradinho.jpg",
+        titulo : "Janaína Maxakali filma pajé Derli Maxakali na Aldeia Nova Boa, no Pradinho.",
+    },
+    {
+        id: 'img_9',
+        imagem : "9-Nova_geracao_de_cineastas_Tikmuun_Maxakali.jpeg",
+        titulo : "Nova geração de cineastas Tikmũ‘ũn Maxakali.",
+    },
+    {
+        id: 'img_10',
+        imagem : "10-Santinha_Maxakali_em_oficina_na_Aldeia_Maravilha.jpg",
+        titulo : "Santinha Maxakali em oficina na Aldeia Maravilha",
+    },
+    {
+        id: 'img_11',
+        imagem : "11-Santinha_Maxakali_em_oficina_na_Aldeia_Maravilha_no_Pradinho.jpg",
+        titulo : "Santinha Maxakali em oficina na Aldeia Maravilha no Pradinho.",
+    },
+    {
+        id: 'img_12',
+        imagem : "12-Un_Ka_ok_Koxukxop_na_Aldeia_Maravilha.jpg",
+        titulo : "Ũn Ka'ok Koxukxop na Aldeia Maravilha",
+    },
 ];
-
 
 function exibirSessao() {
 
