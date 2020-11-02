@@ -10408,9 +10408,35 @@ form .row:first-child .floating-label-form-group {
   margin-right: 2rem;
 }
 .movie-margin-left{
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .margin-aliens-tech-top{
   margin-bottom: 5rem;
 }
+
+
+@media (min-width: 992px) {
+  
+  .info-sessao-margin-left{
+    margin-left: 15%;
+  }
+  
+  .info-sessao-margin-right{
+    margin-right: 15%;
+  }
+  
+}
+
+@media (max-width: 575px) {
+  
+  .info-sessao-margin-left-cel{
+    margin-left: 20%;
+  }
+  
+  .info-sessao-margin-right-cel{
+    margin-right: 20%;
+  }
+  
+}
+
