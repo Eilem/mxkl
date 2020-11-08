@@ -1,21 +1,21 @@
 let prefixPath = "./img/cineastas/";
 
 let cineastas = [
-    {
-        nome : "Ana Estrela",
-        imagem : "ana.png",
-        biografia : "Ana Carolina Estrela da Costa, antropóloga e documentarista e co-fundadora da Rede CineFlecha, desenvolve há cerca de dez anos oficinas de formação audiovisual, além de vídeos, documentários e pesquisas com os Maxakali/Tikmũ´ũn, da região do Vale do Mucuri, em Minas Gerais. Doutoranda em Antropologia Social na Universidade de São Paulo e integrante do Centro de Estudos Ameríndios (CEstA) e do Laboratório de Imagem e Som em Antropologia (LISA), estuda a produção audiovisual indígena também há dez anos, e já realizou inúmeros projetos de produção audiovisual, dentre eles a criação do Coletivo de Cinema Maxakali do Pradinho. Seu projeto de doutorado conta com apoio da FAPESP.",
-    },    
-    {
-        nome : "Bruno Vasconcelos",
-        imagem : "bruno.png",
-        biografia : "É formado em Comunicação Social pela UFMG e em Cinema pela EICTV - Escuela Internacional de Cine y TV, de Cuba. Integra o grupo de curadores e realizadores do forumdoc.bh. Trabalha em produções audiovisuais com desenho de som, montagem e fotografia.",
-    },    
-    {
-        nome : "Charles Bicalho",
-        imagem : "charles.png",
-        biografia : "Superior de Tecnologia em Design Gráfico no Instituto de Arte e Projeto (INAP) em Belo Horizonte. Graduação em Letras na UFMG. Especialização em Pós-Produção para Cinema, TV e Novas Mídias no Centro Universitário UNA-BH. Master of Arts em Estudos Literários na University of New Mexico, EUA. Doutorado em Estudos Literários na UFMG. Diretor, produtor, roteirista. Diretor dos curtas: Caligrafilmes (2008); Making of Dicionário (2012); Pirapora (2012); Konãgxeka: O Dilúvio Maxakali (2016). Membro fundador da produtora Pajé Filmes.",
-    },    
+    // {
+    //     nome : "Ana Estrela",
+    //     imagem : "ana.png",
+    //     biografia : "Ana Carolina Estrela da Costa, antropóloga e documentarista e co-fundadora da Rede CineFlecha, desenvolve há cerca de dez anos oficinas de formação audiovisual, além de vídeos, documentários e pesquisas com os Maxakali/Tikmũ´ũn, da região do Vale do Mucuri, em Minas Gerais. Doutoranda em Antropologia Social na Universidade de São Paulo e integrante do Centro de Estudos Ameríndios (CEstA) e do Laboratório de Imagem e Som em Antropologia (LISA), estuda a produção audiovisual indígena também há dez anos, e já realizou inúmeros projetos de produção audiovisual, dentre eles a criação do Coletivo de Cinema Maxakali do Pradinho. Seu projeto de doutorado conta com apoio da FAPESP.",
+    // },    
+    // {
+    //     nome : "Bruno Vasconcelos",
+    //     imagem : "bruno.png",
+    //     biografia : "É formado em Comunicação Social pela UFMG e em Cinema pela EICTV - Escuela Internacional de Cine y TV, de Cuba. Integra o grupo de curadores e realizadores do forumdoc.bh. Trabalha em produções audiovisuais com desenho de som, montagem e fotografia.",
+    // },    
+    // {
+    //     nome : "Charles Bicalho",
+    //     imagem : "charles.png",
+    //     biografia : "Superior de Tecnologia em Design Gráfico no Instituto de Arte e Projeto (INAP) em Belo Horizonte. Graduação em Letras na UFMG. Especialização em Pós-Produção para Cinema, TV e Novas Mídias no Centro Universitário UNA-BH. Master of Arts em Estudos Literários na University of New Mexico, EUA. Doutorado em Estudos Literários na UFMG. Diretor, produtor, roteirista. Diretor dos curtas: Caligrafilmes (2008); Making of Dicionário (2012); Pirapora (2012); Konãgxeka: O Dilúvio Maxakali (2016). Membro fundador da produtora Pajé Filmes.",
+    // },    
     {
         nome : "Derli Maxakali",
         imagem : "Derli.png",
@@ -57,16 +57,16 @@ let cineastas = [
         imagem : "natalino.png",
         biografia : 'Filho do Pajé Pequi Maxakali, da Terra Indígena Maxakali do Pradinho (MG), Natalino Maxakali é professor, estuda e realiza trabalhos desde 2013. Diretor do longa "Popxop" (2019), dentre outras produções ainda sendo desenvolvidas. Já se apresentou em eventos dedicados ao cinema maxakali e a modos de fala indígenas, na Universidade de São Paulo. Atualmente, mantém suas atividades com o cinema através do Coletivo de Cinema Maxakali do Pradinho, na Aldeia Maravilha.',
     },    
-    {
-        nome : "Renata Otto",
-        imagem : "renata.png",
-        biografia : "Mestre em Antropologia Social pelo Museu Nacional da UFRJ,  doutoranda em antropologia social na UNB. Membro da Filmes de Quintal",
-    },    
-    {
-        nome : "Roney Freitas",
-        imagem : "roney.png",
-        biografia : "Mestrando no Programa de Meios e Processos Audiovisuais e Bacharel em Audiovisual pela ECA-USP, Roney trabalha no mercado audiovisual como roteirista, diretor e produtor. Atuou como diretor e roteirista dos curtas Laurita e Aurora e do documentário Memória de Rio, prestigiados em diversos festivais nacionais e internacionais. Assina o roteiro da animação Canta, TYETÉ, realizado pelo Núcleo Paulistano de Animação (NUPA). Atualmente produz filmes independentes pela Arte in Vitro Filmes, empresa do qual é sócio produtor. Em parceria com o cineasta Isael Maxakali, seu último trabalho Grin recebeu prêmios de melhor filme em festivais nacionais e menção honrosa na 21ª Bienal de Arte Contemporânea Sesc_Videobrasil",
-    },    
+    // {
+    //     nome : "Renata Otto",
+    //     imagem : "renata.png",
+    //     biografia : "Mestre em Antropologia Social pelo Museu Nacional da UFRJ,  doutoranda em antropologia social na UNB. Membro da Filmes de Quintal",
+    // },    
+    // {
+    //     nome : "Roney Freitas",
+    //     imagem : "roney.png",
+    //     biografia : "Mestrando no Programa de Meios e Processos Audiovisuais e Bacharel em Audiovisual pela ECA-USP, Roney trabalha no mercado audiovisual como roteirista, diretor e produtor. Atuou como diretor e roteirista dos curtas Laurita e Aurora e do documentário Memória de Rio, prestigiados em diversos festivais nacionais e internacionais. Assina o roteiro da animação Canta, TYETÉ, realizado pelo Núcleo Paulistano de Animação (NUPA). Atualmente produz filmes independentes pela Arte in Vitro Filmes, empresa do qual é sócio produtor. Em parceria com o cineasta Isael Maxakali, seu último trabalho Grin recebeu prêmios de melhor filme em festivais nacionais e menção honrosa na 21ª Bienal de Arte Contemporânea Sesc_Videobrasil",
+    // },    
     {
         nome : "Santinha Maxakali",
         imagem : "Santinha.png",

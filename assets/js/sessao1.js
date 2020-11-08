@@ -46,6 +46,7 @@ function exibeSessao1() {
         filmeAtual.titulo = filmeAtual.titulo ? filmeAtual.titulo : '';
         filmeAtual.subtitulo = filmeAtual.subtitulo ? filmeAtual.subtitulo : '';
         filmeAtual.infos = filmeAtual.infos ? filmeAtual.infos : '';
+        filmeAtual.link = filmeAtual.link ? filmeAtual.link : '';
 
         return `
             <div class="portfolio-modal modal fade" id="portfolioModal${filmeAtual.id}" tabindex="-1" role="dialog" aria-labelledby="portfolioModal${filmeAtual.id}Label" aria-hidden="true">
