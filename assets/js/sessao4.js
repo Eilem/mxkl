@@ -7,7 +7,7 @@ let filmesSessao4 = [
         imagem: "konagxeka.jpg",
         sinopse: "Konãgxeka na língua indígena maxakali quer dizer “água grande”. Trata-se da versão maxakali da história do dilúvio. Como um castigo, por causa do egoísmo e da ganância dos homens, os espíritos yãmîy enviam a “grande água”. Trata-se de um filme indígena. Um dos diretores é representante do povo indígena Maxakali, de Minas Gerais. Filme falado em língua Maxakali, com legenda. O argumento do filme é o mito diluviano do povo Maxakali. As ilustrações para o filme foram feitas por indígenas Maxakali, durante oficina realizada na Aldeia Verde Maxakali, no município de Ladainha, Minas Gerais.",
         dados:'DIREÇÃO: Isael Maxakali, Charles Bicalho  | ROTEIRO: Isael Maxakali, Charles Bicalho  | MONTAGEM: Isael Maxakali, Charles Bicalho,  Jackson Abacatu e Marcos Henrique Coelho | DIREÇÃO DE ANIMAÇÃO: Jackson Abacatu | ASSISTENTES DE DIREÇÃO: Elizângela Maxakali e Sueli Maxakali | PRODUÇÃO: Charles Bicalho e Marcos Henrique Coelho | ASSISTENTE DE PRODUÇÃO: Cláudia Alves | DIREÇÃO DE ARTE: Charles Bicalho e Jackson Abacatu | EDIÇÃO DE SOM: Frederico Mucci e Jackson Abacate | ELENCO: Cassiano Maxakali, Isael Maxakali, Sueli Maxakali, Elizângela Maxakali | Belo Horizonte / Aldeia Verde (Ladainha - MG)',
-        link: "https://www.looke.com.br/movies/dist/spcine/maxakali",
+        link: "https://www.looke.com.br/filmes/konagxeka-o-diluvio-maxakali_2016",
     },
     {
         id : "sessao_4_2",
@@ -16,7 +16,7 @@ let filmesSessao4 = [
         imagem: "Grin.jpg",
         sinopse: " Um cineasta maxakali resgata memórias sobre a formação da Guarda Rural Indígena (Grin) durante a ditadura militar, com relatos das violências sofridas pelos seus parentes.",
         dados: 'DIREÇÃO: Isael Maxakali, Sueli Maxakali, Roney Freitas | PRODUÇÃO EXECUTIVA: Luara Oliveira, Fabiana Übida | MONTAGEM, ROTEIRO E PRODUÇÃO EXECUTIVA: Alexandre Taira Pesquisa | ARGUMENTO: Rosi Araujo | FOTOGRAFIA: Andre Luiz de Luiz | DIREÇÃO DE PRODUÇÃO: Vinícius Casimiro | ASSISTÊNCIA DE PRODUÇÃO E SOM DIRETO: Cecilia Engels | MIXAGEM: Eric Ribeiro Christani | TRADUÇÃO: Isael Maxakali, Sueli Maxakali, Douglas Campelo | São Paulo / Aldeia Verde (Ladainha - MG), T.I. Maxakali',
-        link: "https://www.looke.com.br/movies/dist/spcine/maxakali",
+        link: "https://www.looke.com.br/filmes/grin",
     },
 ];
 

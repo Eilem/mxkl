@@ -7,7 +7,7 @@ let filmesSessao5 = [
         imagem: "Matanag.jpg",
         sinopse: "Mãtãnãg, a Encantada acompanha a trajetória da índia Mãtãnãg, que segue o espírito de seu marido, morto por uma picada de cobra, até a aldeia dos mortos. Juntos eles superam os obstáculos que separam o mundo terreno do mundo espiritual.",
         dados: 'DIREÇÃO: Shawara Maxakali, Charles Bicalho | PESQUISA E ROTEIRO: Pajé Totó Maxakali, Charles Bicalho | CONSULTORIA CULTURAL: Isael Maxakali, Sueli Maxakali | DIREÇÃO DE ANIMAÇÃO: Jackson Abacatu | ILUSTRAÇÃO: Alexandre Maxakali, Ariston Maxakali, Cassiano Maxakali, Eliana Maxakali, Erismar Maxakali, Evaldo Maxakali, Gerente Maxakali, Mamei Maxakali, Marcinho Maxakali, Marco Maxakali, Paulinho Maxakali, Shawara Maxakali | MONTAGEM: Charles Bicalho, Jackson Abacatu, Marcos Henrique Coelho | DESIGN DE PRODUÇÃO: Charles Bicalho, Comunidade Maxakali de Aldeia Verde, Jackson Abacatu | CANTO: Alexandre Maxakali, Ariston Maxakali, Cassiano Maxakali, Gerente Maxakali, Mamei Maxakali, Isael Maxakali, Shawara Maxakali | VOZES DE DIÁLOGO: Alexandre Maxakali (pajé), Ariston Maxakali (esposo de Mãtãnãg), Eliane Maxakali (amiga de Mãtãnãg), Shawara Maxakali (Mãtãnãg) | TRADUÇÃO DE MAXAKALI PARA PORTUGUÊS: Charles Bicalho, Isael Maxakali, Sueli Maxakali | SOM DIRETO E DESIGN SONORO: Guilherme Bahia | PRODUÇÃO: Charles Bicalho, Cláudia Alves, Marcos Henrique Coelho | PRODUÇÃO DE ANIMAÇÃO: Etama Produções | FINALIZAÇÃO DE IMAGEM: Jackson Abacatu | FINALIZAÇÃO DE ÁUDIO: Guilherme Bahia | ARTE GRÁFICA: Charles Bicalho, Jackson Abacatu | REALIZAÇÃO: Pajé FilmesSessao5 | Belo Horizonte / Aldeia Verde ( Ladainha - MG)',
-        link: "https://www.looke.com.br/movies/dist/spcine/maxakali",
+        link: "https://www.looke.com.br/filmes/matanag-a-encantada",
     },
     {
         id : "sessao_5_2",
@@ -16,7 +16,7 @@ let filmesSessao5 = [
         imagem: "Yaamiyhex.jpg",
         sinopse: "Após passarem alguns meses na Aldeia Verde, as yãmĩyhex (mulheres-espírito) se preparam para partir. Os cineastas Sueli e Isael Maxakali registram os preparativos e a grande festa para sua despedida. Durante os dias de festa, uma multidão de espíritos atravessa a aldeia. As yãmĩyhex vão embora, mas sempre voltam com saudades dos seus pais e das suas mães.",
         dados: 'DIREÇÃO: Sueli Maxakali e Isael Maxakali |IMAGENS: Sueli Maxakali, Isael Maxakali, Alexandre Maxakali, Cassiano Maxakali, Patrícia Ferreira Para Yxapy, Roberto Romero, Carolina Canguçu | ASSISTÊNCIA DE DIREÇÃO: Carolina Canguçu e Roberto Romero| MONTAGEM: Luisa Lanna EM COLABORAÇÃO COM: Carolina Canguçu, Roberto Romero | FINALIZAÇÃO DE SOM: Pedro Portella | Aldeia Verde ( Ladainha - MG)',
-        link: "https://www.looke.com.br/movies/dist/spcine/maxakali",
+        link: "https://www.looke.com.br/filmes/yamiyhex-as-mulheres-espirito",
     },
 ];
 

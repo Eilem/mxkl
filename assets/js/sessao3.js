@@ -8,7 +8,7 @@ let filmesSessao3 = [
         imagem: "YamiyBatizamMeninos.png",
         sinopse: "Enquanto as brumas da madrugada se dissipam, os Yãmĩyxop chegam na aldeia e tomam as crianças Maxakali / Tikmũ’ũn carregando-as penduradas em suas costas. Faz-se necessário acordar o rio e amansá-lo para que banhe e batize os novos homens que agora passarão a frequentar a casa dos cantos. O filme expõe uma parcela do delicado sistema educacional Tikmũ’ũn.",
         dados: 'DIREÇÃO: Ismail Maxakali | FOTOGRAFIA: Ismail Maxakali, Josemar Maxakali | MONTAGEM: Ana Estrela, Ismail Maxakali, Marilton Maxakali | SOM: Ismail Maxakali, Josemar Maxakali | LEGENDA E TRADUÇÃO: Ismail Maxakali, Josemar Maxakali, Marilton Maxakali, Ana Estrela | COORDENAÇÃO: Rosângela de Tugny | PRODUÇÃO: INCTI - Instituto Nacional de Ciência e Tecnologia (Inclusão no Ensino Superior e na Pesquisa) | Aldeia Vila Nova (Pradinho, T. I. Maxakali)',
-        link: "https://www.looke.com.br/movies/dist/spcine/maxakali",
+        link: "https://www.looke.com.br/filmes/os-yamiy-batizam-meninos",
     },
     {
         id : "sessao_3_2",
@@ -18,7 +18,7 @@ let filmesSessao3 = [
         imagem: "IniciaçãoDosFilhos.png",
         sinopse: "Os meninos da Aldeia Verde Tikmũ´ũn / Maxakali são iniciados pelos espíritos que vivem na terra. A partir de agora eles poderão frequentar o kuxex (casa de religião), conviver, alimentar e aprender com os Yãmĩyxop.",
         dados: 'DIREÇÃO E FOTOGRAFIA: Isael Maxakali | SOM: Isael Maxakali | MONTAGEM: Isael Maxakali, Carolina Canguçu, Sueli Maxakali | PRODUÇÃO: Aldeia Verde ( Ladainha - MG)',
-        link: "https://www.looke.com.br/movies/dist/spcine/maxakali",
+        link: "https://www.looke.com.br/filmes/iniciacao-dos-filhos-dos-espiritos-da-terra",
     },
     {
         id : "sessao_3_",
@@ -28,7 +28,7 @@ let filmesSessao3 = [
         imagem: "Tatakox.png",
         sinopse: "Quando as mulheres sentem saudade das suas crianças que morreram pequenas, os Tatakox vão buscá-las e trazem-nas às aldeias para que as mães as vejam. Com a filmadora nós pudemos ver de onde os Tatakox tiram as crianças. Depois, no mesmo dia, os meninos vivos da aldeia são levados por de suas mães pelos espíritos para ficar na casa dos homens e aprender.",
         dados: 'DIREÇÃO: Guigui Maxakali, Comunidade Maxakali Aldeia Vila Nova | EDIÇÃO: João Duro Maxakali, Guigui Maxakali, Mari Corrêa | LEGENDAGEM E FINALIZAÇÃO: Mari Corrêa | TRADUÇÃO: Zé Antoninho Maxakali, Rosângela Tugny, Douglas Campelo | PRODUÇÃO: Aldeia Vila Nova (Pradinho, T. I. Maxakali)',
-        link: "https://www.looke.com.br/movies/dist/spcine/maxakali",
+        link: "https://www.looke.com.br/filmes/tatakox-da-aldeia-vila-nova",
     },
 ];
 
